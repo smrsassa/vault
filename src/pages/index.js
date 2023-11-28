@@ -12,6 +12,7 @@ function HomepageHeader() {
       <div className="container">
         <Heading as="h1" className="hero__title">
           {siteConfig.title}
+          <img src="img/pelicano.png" alt="pelicano" style={{width: "300px", height: "250px"}} />
         </Heading>
         <p className="hero__subtitle">{siteConfig.tagline}</p>
       </div>

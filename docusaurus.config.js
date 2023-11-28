@@ -1,8 +1,8 @@
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'SMRsassa',
-  tagline: 'Meu blog pessoal',
-  favicon: 'img/favicon.ico',
+  title: 'O Pelicano',
+  tagline: '',
+  favicon: 'img/pelicano.png',
   url: 'https://your-docusaurus-test-site.com',
   baseUrl: '/',
   organizationName: 'smrsassa',
@@ -37,35 +37,23 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: 'SMR Vault',
+        title: 'O Pelicano',
         logo: {
           alt: 'My Site Logo',
-          src: 'img/logo.svg',
+          src: 'img/pelicano.svg',
         },
         items: [
           {
             type: 'docSidebar',
-            sidebarId: 'tec',
+            sidebarId: 'suma',
             position: 'left',
-            label: 'Tecnologia',
-          },
-          {
-            type: 'docSidebar',
-            sidebarId: 'religiao',
-            position: 'left',
-            label: 'Religião',
+            label: 'Suma',
           },
           {
             type: 'docSidebar',
             sidebarId: 'misc',
             position: 'left',
             label: 'Miscelâneas',
-          },
-          {to: '/blog', label: 'Blog', position: 'left'},
-          {
-            href: 'https://github.com/smrsassa',
-            label: 'GitHub',
-            position: 'right',
           },
         ],
       },
