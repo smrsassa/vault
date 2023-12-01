@@ -9,15 +9,15 @@ export default function Pesquisar() {
   useEffect(() => {
     const fetchData = async () => {
       try {
-				if (inputText != '') {
-					const resposta = await fetch(`http://127.0.0.1/api/suma.php?q=${inputText}`);
-					const dados = await resposta.json();
-					setApiQuestoes(dados.questoes);
-					setApiArtigo(dados.artigos);
-				} else {
-					setApiQuestoes([]);
-					setApiArtigo([]);
-				}
+		if (inputText != '') {
+			const resposta = await fetch(`http://127.0.0.1/api/suma.php?q=${inputText}`);
+			const dados = await resposta.json();
+			setApiQuestoes(dados.questoes);
+			setApiArtigo(dados.artigos);
+		} else {
+			setApiQuestoes([]);
+			setApiArtigo([]);
+		}
       } catch (erro) {
         console.error('Erro ao buscar dados da API:', erro);
       }

@@ -47,7 +47,12 @@ const config = {
             type: 'docSidebar',
             sidebarId: 'suma',
             position: 'left',
-            label: 'Suma',
+            label: 'Suma Teológica',
+          },
+          {
+            href: 'pesquisar',
+            position: 'left',
+            label: 'Pesquisar',
           },
           {
             type: 'docSidebar',
@@ -59,7 +64,7 @@ const config = {
       },
       colorMode: {
         defaultMode: 'dark',
-        disableSwitch: false,
+        disableSwitch: true,
         respectPrefersColorScheme: false,
       },
     }),
