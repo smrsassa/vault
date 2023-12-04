@@ -54,12 +54,12 @@ const config = {
             position: 'left',
             label: 'Pesquisar',
           },
-          {
-            type: 'docSidebar',
-            sidebarId: 'misc',
-            position: 'left',
-            label: 'Miscelâneas',
-          },
+          // {
+          //   type: 'docSidebar',
+          //   sidebarId: 'misc',
+          //   position: 'left',
+          //   label: 'Miscelâneas',
+          // },
         ],
       },
       colorMode: {
