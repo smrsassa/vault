@@ -50,7 +50,7 @@ const config = {
             label: 'Suma Teológica',
           },
           {
-            href: 'pesquisar',
+            href: '/pesquisar',
             position: 'left',
             label: 'Pesquisar',
           },
